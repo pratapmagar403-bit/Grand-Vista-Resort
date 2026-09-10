@@ -1,0 +1,6 @@
+{
+  "name": "AI Chatbot",
+  "description": "Full-stack AI Chatbot powered by Python, FastAPI, and SQLite with responsive HTML and CSS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

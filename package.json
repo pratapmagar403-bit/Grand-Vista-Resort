@@ -1,0 +1,12 @@
+{
+  "name": "ai-chatbot",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "python3 main.py",
+    "start": "python3 main.py",
+    "build": "python3 -c 'import py_compile; py_compile.compile(\"main.py\"); py_compile.compile(\"database.py\"); print(\"Build verified\")'",
+    "lint": "python3 -c 'import py_compile; py_compile.compile(\"main.py\", doraise=True); py_compile.compile(\"database.py\", doraise=True); print(\"Lint verified\")'"
+  }
+}
